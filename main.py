@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 # functions
 
+# check user's entered login credentials
 def check_login_credentials(username, password):
 
     # temporary roleplaying db stored credentials:
