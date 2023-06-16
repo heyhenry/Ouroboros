@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: serif, sans-serif, monospace;
+    background-color: #f5f6fa;
+}
+
+.login-container{
+    background-color: #c2c8e1;
+    border: 2px solid black;
+    /* for the content inside the container */
+    display: flex;
+    justify-content: center; 
+    /* changes the width of the container */
+    width: 350px;
+    /* removes the whitespace produced by the form container and resizes to appropriate */
+    margin: 0 auto; 
+}
+
+.login-container input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    width: 200px;
+}
